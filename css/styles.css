@@ -1,28 +1,54 @@
 body {
 	background: url("../img/bg-img.png");
+	margin: 
 	font-family: 'Anaheim', sans-serif;
 }
 
 /* Set Your Own Margin & Padding */
  h1, h2, h3 {
-	margin: 0;
+	background: rgb(179, 226, 252);
+ 	color: rgb(255, 113, 1);
+	margin: 20px 30px 20px 30px;
 	font-family: 'Bitter', serif;
+}
+
+p, em {
+	background: rgb(246, 240, 191); 
+ 	color: rgb(50, 0, 255);
+ 	margin: 20px 30px 20px 30px;
 }
 
 /* Layout for Style Tile*/
 section {
-	margin: 20px 0;
+	margin: 10px 10px;
+}
+
+.color-1 {
+	background: rgb(255, 113, 1);
+}
+
+.color-2 {
+	background: rgb(246, 240, 191);
+}
+
+.color-3 {
+	background: rgb(179, 226, 252);
+}
+
+.color-4 {
+	background: rgb(50, 0, 255);
 }
 
 .color-1,
 .color-2,
 .color-3,
+.color-4,
 .pattern-1,
 .pattern-2,
 .pattern-3 {
 	border: 1px solid #000;
 	float: left;
-	margin: 0 10px;
+ 	margin: 10px 20px;
 	height: 50px;
 	width: 50px;
 }
